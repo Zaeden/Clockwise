@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
+import CreateEventDrawer from "@/components/create-event";
 
 export const metadata = {
   title: "Clockwise",
@@ -27,6 +28,8 @@ export default function RootLayout({ children }) {
               <p>Made with ❤ by Mizan Ali Khan</p>
             </div>
           </footer>
+          {/* Create Event Drawer */}
+          <CreateEventDrawer />
         </body>
       </html>
     </ClerkProvider>
