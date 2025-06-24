@@ -29,7 +29,9 @@ export default function RootLayout({ children }) {
             </div>
           </footer>
           {/* Create Event Drawer */}
-          <CreateEventDrawer />
+          <Suspense fallback={null}>
+            <CreateEventDrawer />
+          </Suspense>
         </body>
       </html>
     </ClerkProvider>

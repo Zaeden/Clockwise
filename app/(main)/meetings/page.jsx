@@ -4,7 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import MeetingList from "./_components/meeting-list";
 
 export const metadata = {
-  title: "Your Meetings | Schedulrr",
+  title: "Your Meetings | Clockwise",
   description: "View and manage your upcoming and past meetings.",
 };
 
