@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 import CreateEventDrawer from "@/components/create-event";
+import { Suspense } from "react";
 
 export const metadata = {
   title: "Clockwise",
