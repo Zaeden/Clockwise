@@ -11,14 +11,15 @@ const Header = async () => {
 
   return (
     <div className="mx-auto py-2 px-4 flex justify-between items-center shadow-md border-b-2">
-      <Link href={"/"} className="flex items-center">
+      <Link href={"/"} className="flex items-center justify-center">
         <Image
-          src=""
+          src="/clockwise-logo.png"
           width="150"
           height="60"
           alt="Clockwise Logo"
           className="h-16 w-auto"
         />
+        <h1 className="text-2xl font-bold">Clockwise</h1>
       </Link>
 
       <div className="flex items-center gap-4">
