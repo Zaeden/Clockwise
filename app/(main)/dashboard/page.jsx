@@ -90,12 +90,6 @@ const Dashboard = () => {
 
       <Card>
         <CardHeader>
-          <CardTitle>Welcome, {user?.firstName}</CardTitle>
-        </CardHeader>
-      </Card>
-
-      <Card>
-        <CardHeader>
           <CardTitle>Your Unique Link</CardTitle>
         </CardHeader>
         <CardContent>
