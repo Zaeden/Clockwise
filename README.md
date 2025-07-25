@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clockwise
 
-## Getting Started
+**Clockwise** is a scheduling application that allows users to seamlessly book events, connect with Google Calendar, and generate Google Meet links for virtual meetings.
 
-First, run the development server:
+[Open Clockwise Web App](https://clockwise-eight.vercel.app/) (right-click to open in new tab)
+
+## Features
+
+- Schedule meetings via custom booking links
+
+- Real-time Google Calendar integration
+
+- Automatic Google Meet link generation
+
+- Secure authentication using Clerk
+
+- Elegant UI built with shadcn/ui
+
+- PostgreSQL database hosted on NeonDB
+
+- Serverless API routes with Next.js
+
+## Tech Stack
+
+**Client:** Next.js, TailwindCSS, React-hook-form
+
+**Server:** Next.js App Router
+
+**Authentication:** Clerk
+
+**UI Components:** shadcn/ui
+
+**Database:** PostgreSQL with Prisma ORM
+
+**Integrations:** Google Calendar, Google Meet
+
+**Deployment:** Vercel
+
+## Screenshot
+
+### Landing Page
+
+![Admin Dashboard](assets/screenshots/clockwise_landing_page.png)
+
+### Events Page
+
+![Leads Table](assets/screenshots/clockwise_events.png)
+
+### Meetings Page
+
+![Leads Details](assets/screenshots/clockwise_meetings.png)
+
+### Availability Page
+
+![Leads Details](assets/screenshots/clockwise_availability.png)
+
+### Booking Page
+
+![Leads Details](assets/screenshots/clockwise_event_booking.png)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Zaeden/Clockwise.git
+cd Clockwise
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Setup .env file (use .env.example as reference)
+
+```bash
+cp .env.example .env.local
+```
+
+4. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Frontend and Backend:** Hosted on Vercel
+**Database:** Hosted on NeonDB
