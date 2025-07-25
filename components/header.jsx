@@ -19,7 +19,7 @@ const Header = async () => {
           alt="Clockwise Logo"
           className="h-16 w-auto"
         />
-        <h1 className="text-2xl font-bold">Clockwise</h1>
+        <h1 className="hidden md:block text-2xl font-bold">Clockwise</h1>
       </Link>
 
       <div className="flex items-center gap-4">
